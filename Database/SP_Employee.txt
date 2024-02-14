@@ -1,0 +1,56 @@
+USE [One]
+GO
+
+/****** Object:  StoredProcedure [dbo].[SP_User]    Script Date: 2/3/2024 12:20:29 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+
+
+-- =============================================
+-- Sharad Dilip Kute
+-- =============================================
+CREATE PROCEDURE  [dbo].[SP_Employee]
+(
+	@EmpId as bigint = 0,
+	@Name as   varchar(300)='',
+	@Address as varchar(300) = '',
+	@ImagePath as varchar(50) = '',
+	@Action as varchar(100)
+)
+AS
+BEGIN
+    -- Insert statements for procedure here
+	if @Action='Insert'    
+	Begin    
+	Insert into Table_Employee(EmpId,Name,Address,ImagePath) values(@EmpId,@Name,@Address,@ImagePath)
+	End    
+
+	IF @Action = 'Update'  
+	BEGIN  
+		update  Table_Employee set @EmpId = @EmpId, Name = @Name, Address = @Address,ImagePath=@ImagePath where EmpId = @EmpId;
+	END
+
+	
+	IF @Action = 'SelectAll'  
+	BEGIN  
+		select * from  Table_Employee WHERE EmpId=0;
+	END
+	
+	
+	--IF @Action = 'SelectList'
+	--BEGIN	
+	----	SELECT UM.EmpId,UM.EmpName,UM.Email,UM.FileUpload,UM.Contact,UM.Gender,DM.DesignationName,UM.UserName,UM.[Password],UM.JobPartTime,UM.JobFullTime,UM.JobPermanent FROM DesignationMaster DM 	
+	--	INNER JOIN UserMaster UM ON DM.DesignationId= UM.DesignationId
+	--END
+
+	
+
+END
+GO
