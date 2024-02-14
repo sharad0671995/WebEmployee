@@ -1,0 +1,15 @@
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\bin\Debug\net8.0\RelativeInfo.deps.json
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\bin\Debug\net8.0\RelativeInfo.dll
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\bin\Debug\net8.0\RelativeInfo.pdb
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\bin\Debug\net8.0\guest.Models.dll
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\bin\Debug\net8.0\guest.Models.pdb
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\RelativeInfo.csproj.AssemblyReference.cache
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\RelativeInfo.GeneratedMSBuildEditorConfig.editorconfig
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\RelativeInfo.AssemblyInfoInputs.cache
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\RelativeInfo.AssemblyInfo.cs
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\RelativeInfo.csproj.CoreCompileInputs.cache
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\RelativeInfo.csproj.CopyComplete
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\RelativeInfo.dll
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\refint\RelativeInfo.dll
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\RelativeInfo.pdb
+E:\MainProFinal\.NET8\13-2-2013\guest\RelativeInfo\obj\Debug\net8.0\ref\RelativeInfo.dll
